@@ -1,0 +1,14 @@
+*{
+    direction: rtl;
+    box-sizing: border-box;
+}
+.avtive-1{
+    border: 1px solid #17a2b8;
+    border-radius: 50px;
+    background: #e0fbff;
+    cursor: pointer;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.pointer{
+    cursor: pointer;
+}
