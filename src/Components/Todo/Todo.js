@@ -33,6 +33,7 @@ function Todo(props) {
                             </div>
                         </div>
                     )  
+                    
                     : <EditTodo text={item.text} edit={editHandler}/> 
             }
         </>

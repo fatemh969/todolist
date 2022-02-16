@@ -39,7 +39,8 @@ class App extends Component {
 
         let item = todos.find(item => item.key === key);
         item.text = text ;
-
+         
+        //todohay qabli ham migreft ezafe mikard vaqti ti item ono grftimo taqir dadim bayad ono az list qabli pak konim
         let newTodos = todos.filter(item => item.key !== key)
 
         this.setState({
